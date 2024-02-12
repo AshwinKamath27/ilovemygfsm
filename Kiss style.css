@@ -1,0 +1,35 @@
+body {
+    font-family: 'Comic Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://media1.tenor.com/m/o_5RQarGvJ0AAAAC/kiss.gif');
+    background-size: cover;
+}
+
+/* Header */
+h1 {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+buttonClose {
+    display: inline-block;
+    width: 65px;
+    height: 15px;
+    padding: 15px;
+    padding-top: 0;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-rendering: auto;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    right: 65%;
+    margin-top: 350px;
+}

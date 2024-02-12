@@ -1,0 +1,83 @@
+/* Base Styles */
+body {
+    font-family: 'Comic Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/originals/3c/e8/84/3ce884bb29ad1909a2c253354497420f.gif');
+    color: #333; /* Dark text for readability */
+}
+
+/* Header */
+h1 {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+/* Navigation Button Styles */
+
+buttonClose {
+    display: inline-block;
+    width: 65px;
+    height: 15px;
+    padding: 15px;
+    padding-top: 0;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-rendering: auto;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    right: 92%;
+    margin-top: 750px;
+}
+
+buttonKiss {
+    display: inline-block;
+    width: 135px;
+    height: 15px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 750px;
+    margin-top: 300px;
+}
+
+buttonClose:hover {
+    background-color: #ff00ee;
+}
+buttonKiss:hover {
+    background-color: #ff0000;
+}
+
+a:hover {
+    background-color: #0077A7;
+}
+
+/* Content Styles */
+p {
+    text-align: justify;
+    margin: 15px 0;
+}

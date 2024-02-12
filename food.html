@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Selection</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(255, 230, 119, 0.447);
+}
+        #foodquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .food-item img {
+            width: 200px; 
+            height: 200px;
+			padding: 10px;
+        }
+        .food-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="foodquestion"> <b>What food would you like to eat?</b></div>
+    
+    <div class="food-selection">
+        <div class="food-item">
+            <img src="https://media.tenor.com/8m4sSqF0nGIAAAAi/hamburger-joypixels.gif">
+            <label><input type="checkbox" name="food" value="Burgers, fries and fried chicken"> <b>Mcd</b></label>
+        </div>
+        <div class="food-item">
+            <img src="https://i.gifer.com/1A0F.gif" alt="dog" >
+            <label><input type="checkbox" name="food" value="hotdog"> <b>Costco Hotdog</b></label>
+        </div>
+        <div class="food-item">
+            <img src="https://66.media.tumblr.com/d216093e44a6ce28e323c7151b564ed9/tumblr_miqgiw6G4d1qanuvko1_500.gif" alt="koreanfood">
+            <label><input type="checkbox" name="food" value="Korean food"> <b>Japanese bbq</b></label>
+        </div>
+        <div class="food-item">
+            <img src="https://cdn.pixabay.com/animation/2022/09/28/13/43/13-43-05-159_512.gif" alt="pasta">
+            <label><input type="checkbox" name="food" value="pasta"> <b>Ramen</b></label>
+        </div>
+        <div class="food-item">
+            <img src="https://i.gifer.com/41pV.gif" alt="pizza">
+            <label><input type="checkbox" name="food" value="pizza"><b>Boston Pizza</b></label>
+        </div>
+        <div class="food-item">
+            <img src="https://media1.giphy.com/media/vRMhgNmdUd7eXHtgHQ/200w.gif" alt="sushi">
+            <label><input type="checkbox" name="food" value="sushi"> <b>Sushi</b></label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='plan.html'">Return</button>
+    
+</body>
+</html>

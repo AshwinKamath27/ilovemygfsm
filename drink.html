@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drink Selection</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(255, 230, 119, 0.447);
+}
+        #drinkquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .drink-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .drink-item img {
+            width: 200px; 
+            height: 200px;
+			padding: 10px;
+        }
+        .drink-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="drinkquestion"> <b>Whatchu wanna do?</b></div>
+    
+    <div class="drink-selection">
+        <div class="drink-item">
+            <img src="https://media.tenor.com/cre5dUFcO-0AAAAi/whiskey-pouring-drink.gif">
+            <label><input type="checkbox" name="drink" value="Burgers, fries and fried chicken"> <b>Fun Alcohol</b></label>
+        </div>
+        <div class="drink-item">
+            <img src="https://media.tenor.com/_YvHbTFkhHAAAAAi/boba-tea.gif" alt="dog" >
+            <label><input type="checkbox" name="drink" value="hotdog"> <b>Bubble Tea</b></label>
+        </div>
+        <div class="drink-item">
+            <img src="https://media.tenor.com/m9Qn9PO13qMAAAAi/juicebox-banny.gif" alt="koreandrink">
+            <label><input type="checkbox" name="drink" value="Korean drink"> <b>Homemade Smoothies</b></label>
+        </div>
+        <div class="drink-item">
+            <img src="https://freight.cargo.site/t/original/i/ac3067674641eb16ed39d4d3c968be8fe61b1a41324cc4c3360d16572c4306b5/baja_blast.gif" alt="pasta">
+            <label><input type="checkbox" name="drink" value="pasta"> <b>Baja Blast</b></label>
+        </div>
+        <div class="drink-item">
+            <img src="https://media.tenor.com/ALOUpN7mVk4AAAAi/buniboo-and-bearuloo-bunny.gif" alt="pasta">
+            <label><input type="checkbox" name="drink" value="pasta"> <b> Homemade Milkshakes </b></label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='plan.html'">Return</button>
+    
+</body>
+</html>

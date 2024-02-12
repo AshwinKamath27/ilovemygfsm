@@ -1,0 +1,168 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 230, 119, 0.447); /* Light blue background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header */
+h1 {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;
+
+
+}
+
+h3 {
+    color: red;
+    margin-top: 10px;
+    margin-left: 375px;
+    font-size: 20px;
+
+
+}
+
+/* Navigation Button Styles */
+
+buttonFood {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    margin: auto;
+    background-color: #ff00bf4d; 
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 500px;
+    top: 200px;
+}
+
+buttonClothes {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-transform:inherit;
+    position: absolute;
+    margin: auto;
+    background-color: #ff00bf4d; 
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 800px;
+    top: 200px;
+}
+
+buttonFood:hover {
+    background-color: #ff00ee;
+}
+buttonClothes:hover {
+    background-color: #ff00ee;
+}
+buttonPlace {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-transform:inherit;
+    position: absolute;
+    margin: auto;
+    background-color: #ff00bf4d; 
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 800px;
+    top: 600px;
+}
+
+buttonActivity {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-transform:inherit;
+    position: absolute;
+    margin: auto;
+    background-color: #ff00bf4d; 
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 800px;
+    top: 400px;
+}
+
+buttonPlace:hover {
+    background-color: #ff00ee;
+}
+buttonActivity:hover {
+    background-color: #ff00ee;
+}
+
+buttonDate {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-transform:inherit;
+    position: absolute;
+    margin: auto;
+    background-color: #ff00bf4d; 
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 500px;
+    top: 400px;
+}
+
+buttonDrink {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-transform:inherit;
+    position: absolute;
+    margin: auto;
+    background-color: #ff00bf4d; 
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 500px;
+    top: 600px;
+}
+
+buttonDate:hover {
+    background-color: #ff00ee;
+}
+buttonDrink:hover {
+    background-color: #ff00ee;
+}

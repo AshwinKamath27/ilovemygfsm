@@ -1,0 +1,277 @@
+/* Base Styles */
+body {
+    font-family: 'Comic Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/originals/c1/b5/06/c1b506afca59ec2eedba5372a9bc1e47.jpg');
+    color: #333; /* Dark text for readability */
+}
+
+/* Header */
+h1 {
+    color: #1a1a1a;
+    background-color: #4caf50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;
+    background-color: #4caf50;
+
+}
+
+/* Navigation Button Styles */
+button {
+    display: block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #b1570e; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+button1 {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 35%;
+    top: 51.05%;
+}
+
+button2 {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    margin: 10px auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 55%;
+    top: 50%;
+}
+
+button1:hover {
+    background-color: #ff00ee;
+}
+button2:hover {
+    background-color: #ff0000;
+}
+button3 {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 35%;
+    top: 51.05%;
+}
+
+button4 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    margin: 10px auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 55%;
+    top: 50%;
+}
+
+button3:hover {
+    background-color: #ff00ee;
+}
+button4:hover {
+    background-color: #ff0000;
+}
+
+button5 {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    padding: 30px;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 35%;
+    top: 51.05%;
+}
+
+button6 {
+    display: inline-block;
+    width: 75px;
+    height: 80px;
+    padding: 30px;
+    position: absolute;
+    margin: 10px auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 55%;
+    top: 50%;
+}
+
+button5:hover {
+    background-color: #ff00ee;
+}
+button6:hover {
+    background-color: #ff0000;
+}
+
+button7 {
+    display: inline-block;
+    width: 300px;
+    height: 275px;
+    padding: 30px;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 35%;
+    top: 51.05%;
+}
+
+button8 {
+    width: 50px;
+    height: 60px;
+    padding: 30px;
+    position: absolute;
+    margin: 10px auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 15%;
+    top: 10%;
+}
+
+button7:hover {
+    background-color: #ff00ee;
+}
+button8:hover {
+    background-color: #ff0000;
+}
+
+button9 {
+    display: inline-block;
+    width: 300px;
+    height: 275px;
+    padding: 30px;
+    position: absolute;
+    margin: auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    left: 35%;
+    top: 51.05%;
+}
+
+button10 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    position: absolute;
+    margin: 10px auto;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.3s;
+    left: 15%;
+    top: 75%;
+}
+
+button9:hover {
+    background-color: #ff00ee;
+}
+button10:hover {
+    background-color: #ff0000;
+}
+
+/* Link Styles */
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px 15px;
+    background-color: #008CBA; /* Blue background */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0077A7;
+}
+
+/* Content Styles */
+p {
+    text-align: justify;
+    margin: 15px 0;
+}

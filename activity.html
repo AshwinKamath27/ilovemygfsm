@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity Selection</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(255, 230, 119, 0.447);
+}
+        #activityquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .activity-item img {
+            width: 200px; 
+            height: 200px;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="activityquestion"> <b>Whatchu wanna do?</b></div>
+    
+    <div class="activity-selection">
+        <div class="activity-item">
+            <img src="https://media.tenor.com/I3goszjIn2YAAAAi/film-camera.gif">
+            <label><input type="checkbox" name="activity" value="Burgers, fries and fried chicken"> <b>Theatre</b></label>
+        </div>
+        <div class="activity-item">
+            <img src="https://media.tenor.com/bCYIIgAKDRkAAAAi/bowling-joypixels.gif" alt="dog" >
+            <label><input type="checkbox" name="activity" value="hotdog"> <b>Bowling</b></label>
+        </div>
+        <div class="activity-item">
+            <img src="https://media.tenor.com/F7yr9xkK2rwAAAAi/couple-watching-tv.gif" alt="koreanactivity">
+            <label><input type="checkbox" name="activity" value="Korean activity"> <b> Movie Marathon</b></label>
+        </div>
+        <div class="activity-item">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/043/813/939/original/rodrigo-ezgif-1-c7c4faf9660d.gif?1638322753   " alt="pasta">
+            <label><input type="checkbox" name="activity" value="pasta"> <b>Oshawa :) </b></label>
+        </div>
+        <div class="activity-item">
+            <img src="https://media.tenor.com/FSYn97L2nOoAAAAi/loof-and-timmy-loof.gif" alt="pasta">
+            <label><input type="checkbox" name="activity" value="pasta"> <b> Board Games </b></label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='plan.html'">Return</button>
+    
+</body>
+</html>

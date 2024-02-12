@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Selection</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace; 
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(255, 230, 119, 0.447);
+}
+        #clothesquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .clothes-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .clothes-item img {
+            width: 200px; 
+            height: 200px;
+			padding: 10px;
+        }
+        .clothes-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="clothesquestion"> <b>What do you wanna wear?</b></div>
+    
+    <div class="clothes-selection">
+        <div class="clothes-item">
+            <img src="https://media2.giphy.com/media/GqCkGuCab7rxCe9x1e/giphy.gif?cid=6c09b952qp3d6ezdl8dcil0tn8mo6uufo8ezpgkhkkwnqai1&ep=v1_stickers_related&rid=giphy.gif&ct=s">
+            <label><input type="checkbox" name="clothes" value="matchingHoodies"> <b>Matching Hoodies</b></label>
+        </div>
+        <div class="clothes-item">
+            <img src="https://media3.giphy.com/media/QBXXZMNGzDOO3ZCGz2/giphy.gif" alt="dog" >
+            <label><input type="checkbox" name="clothes" value="semiFormal"> <b>Semi-Formal</b></label>
+        </div>
+        <div class="clothes-item">
+            <img src="https://www.icegif.com/wp-content/uploads/2023/04/icegif-1089.gif" alt="koreanclothes">
+            <label><input type="checkbox" name="clothes" value="pjs"> <b>Matching PJs</b></label>
+        </div>
+        <div class="clothes-item">
+            <img src="https://media0.giphy.com/media/1yLEs9eB73b4UIKdp2/giphy.gif" alt="pasta">
+            <label><input type="checkbox" name="clothes" value="jeans"> <b>Jeans</b></label>
+        </div>
+        <div class="clothes-item">
+            <img src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-stuffed-bear-sticker-png-image_11084195.png" alt="pizza">
+            <label><input type="checkbox" name="clothes" value="onsie"><b>Onesie (at my home)</b></label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='plan.html'">Return</button>
+    
+</body>
+</html>

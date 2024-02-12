@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>place Selection</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(255, 230, 119, 0.447);
+}
+        #placequestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .place-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .place-item img {
+            width: 200px; 
+            height: 200px;
+			padding: 10px;
+        }
+        .place-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="placequestion"> <b>Whatchu wanna do?</b></div>
+    
+    <div class="place-selection">
+        <div class="place-item">
+            <img src="https://media.tenor.com/JTXqU5BBD7wAAAAj/mario-mariochillin.gif">
+            <label><input type="checkbox" name="place" value="Burgers, fries and fried chicken"> <b>Chillen</b></label>
+        </div>
+        <div class="place-item">
+            <img src="https://media.tenor.com/jNccxJwSwVIAAAAi/valorant-omen-cat-dance.gif" alt="dog" >
+            <label><input type="checkbox" name="place" value="hotdog"> <b>Valorant</b></label>
+        </div>
+        <div class="place-item">
+            <img src="https://cdn.pixabay.com/animation/2023/06/01/08/53/08-53-15-862_512.gif" alt="koreanplace">
+            <label><input type="checkbox" name="place" value="Korean place"> <b>My House</b></label>
+        </div>
+        <div class="place-item">
+            <img src="https://media.tenor.com/UUHUVtPQ7PAAAAAi/minecraft-steve.gif" alt="pasta">
+            <label><input type="checkbox" name="place" value="pasta"> <b>Minecraft </b></label>
+        </div>
+        <div class="place-item">
+            <img src="https://media.tenor.com/QRTrMM1yDLgAAAAj/peachcat-and-goma-peachcat.gif" alt="pasta">
+            <label><input type="checkbox" name="place" value="pasta"> <b> Sleepoever (PLEAAAAAASEEE) </b></label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='plan.html'">Return</button>
+    
+</body>
+</html>
